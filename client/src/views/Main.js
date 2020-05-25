@@ -1,7 +1,9 @@
 import React from 'react';
 
-import NavBar from '../components/NavBar';
+// import NavBar from '../components/NavBar';
 import '../components/css/Index.css';
+import NavBar2 from '../components/NavBar2';
+
 
 
 export default () => {
@@ -17,10 +19,9 @@ export default () => {
 
     return(
         <div>
-            
-            {/* <div id = "page"> */}
-            <div id="homeNav">
-                <NavBar/>
+
+            <div>
+                <NavBar2/>
             </div>
                 <section id="SectionOne">
                 
@@ -43,7 +44,7 @@ export default () => {
 
                         <div className="WelcomeBox">
                                 <h4 className="WelcomeText">P o r t f o l i o</h4>
-                                <h4 className="TextsTech"> React | Python | C# | Django | ASP.NET | Swift | Java | Unity | JavaScript | MySQL | Node | Express | MongoDB | AWS (Amazon Web Service)</h4>
+                                <h4 className="TextsTech"> React | Python | C# | Django | ASP.NET | Swift | Java | Unity | JavaScript | MySQL | Node | Express | MongoDB | AWS</h4>
                                 <div>
                                     <h4 className="line">* * * * * * * * * </h4>
                                     <h5 className="Texts">Contact Me:</h5>
@@ -62,20 +63,27 @@ export default () => {
                     
                 </section>
 
-                    
+                <div id="AboutSection">
+                    <h2 className="AboutText2">A b o u t M e</h2>
+                </div>
                 <section id="SectionTwo">
                     <div className="TopTwo">   
-                        <h2 className="AboutText">About Me</h2>
+
+                        <div className="AboutContainer">
+                            <div className="AboutCard">
+                                <div className="AboutImg">
+                                    <img className="SecondPic" src={ require("../components/css/IMG_0041.JPG")} alt="" /* height="330" width="280" *//>
+                                </div>
+                                <div className="AboutContentBox">
+                                    <div className="AboutContent">
+                                        <h2 className="TextSum">My Summary:</h2>
+                                        <p className="paragraph">Hi, my name is Jimmy, I like building, designing and solving things, whether it's coding, rubix cube or an annoying riddle. After discovering my passion for programming, I continued my passions by taking courses in computer science in college. When I realized I wanted to pursue a career in software development I enrolled at "Coding Dojo."</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         
                             <div className="Bigcontainer">
-                                <div className="ImageTextBox">
-                                    <h3 className="ValveText">Location: Valve</h3>
-                                    <h4 className="ImageText">An image of me in a tech company called "Valve" holding a portal gun</h4>
-                                </div>
-
-                            <div className = "OtherImage">
-                                <img className="SecondPic" src={ require("../components/css/IMG_0041.JPG")} alt="" /* height="330" width="280" *//>
-                            </div>
 
                           
                             <div className="skillBox">
@@ -130,19 +138,16 @@ export default () => {
                             </div>
                         </div>
 
-                        <div className="SummaryBox">
-                            <h4 id="story">Summary: </h4>
-                            <h4 id="textAboutMe">Hi, my name is Jimmy, I like building, designing and solving things, whether it's coding, rubix cube or an annoying riddle. After discovering my passion for programming, I continued my passions by taking courses in computer science in college. When I realized I wanted to pursue a career in software development I enrolled at "Coding Dojo."</h4>
-                        </div>
                     </div>
                         
                 </section>
 
-
+                <div id="ProjectSection">
+                    <h2 className="ProjectText">P r o j e c t s</h2>
+                </div>
                 <section id="SectionThree">
 
                     <div id="Middle">
-                        <h2 id="ProjectText">Projects</h2>
                         <div className="container2">
                             <div className="card">
                                 <div className = "imgBx">
@@ -216,9 +221,12 @@ export default () => {
 
                 </section>
 
+
+                <div id="TestSection">
+                    <h2 className="testText">T e s t i m o n i a l s</h2>
+                </div>
                 <section id="SectionFour">
                     <div id="boxFour">
-                        <h2 id="testText">Testimonials</h2>
                         <div className="Container3">
                             <div className="testimonialsBox">
                                 <div className="MyContent">
@@ -265,14 +273,6 @@ export default () => {
                     </div>
                     <h5>Design & Implemented by Jimmy Pham</h5>
                 </div>
-
-            
-                        
-    
-    
-            
-                    
-            
 
             {/* </div> */}
         </div>
