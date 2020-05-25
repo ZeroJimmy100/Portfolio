@@ -2,6 +2,7 @@ import React from 'react';
 // import logo from './logo.svg'; // import the logo of react
 import './App.css';
 import { Router } from '@reach/router';
+
 import Main from './views/Main';
 
 function App() {
