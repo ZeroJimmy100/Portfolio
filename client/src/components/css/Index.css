@@ -914,6 +914,15 @@ html
     background-repeat: no-repeat;
 }
 
+@media (max-width: 600px)
+{
+    #AboutSection
+    {
+        background-attachment: scroll;
+    }
+}
+
+
 .AboutText2
 {
     display: inline-block;
@@ -940,6 +949,14 @@ html
     background-repeat: no-repeat;
 }
 
+@media (max-width: 600px)
+{
+    #ProjectSection
+    {
+        background-attachment: scroll;
+    }
+}
+
 .ProjectText
 {
     display: inline-block;
@@ -964,6 +981,14 @@ html
     background-attachment: fixed;
     background-size: 100% 100%;
     background-repeat: no-repeat;
+}
+
+@media (max-width: 600px)
+{
+    #TestSection
+    {
+        background-attachment: scroll;
+    }
 }
 
 .testText
@@ -1092,3 +1117,4 @@ html
 
     }
 }
+
