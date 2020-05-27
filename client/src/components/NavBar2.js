@@ -5,7 +5,7 @@ export default function NavBar2() {
     return (
         
             <header className = "header">
-                <a href="/" className="Mylogo"><img className="homeImg" src={ require("../components/css/saiyan.png")} alt=""/></a>
+                <a href="/" className="Mylogo"><img className="homeImg" src={ require("../components/css/MyLogo2.png")} alt=""/></a>
                 <input className="menu-btn" type="checkbox" id="menu-btn"/>
                 <label className="menu-icon" htmlFor="menu-btn"><span className="nav-icon"></span></label>
                 <ul className="LeMenu">
