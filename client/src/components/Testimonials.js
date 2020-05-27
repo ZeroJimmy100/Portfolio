@@ -1,7 +1,7 @@
 import React from 'react';
 import { Slide } from 'react-slideshow-image';
 import './css/Testimon.css';
-import pic1 from './css/Survey.png';
+import pic1 from './css/Randy.jpg';
 
 const slideImages = [
   pic1,
@@ -22,7 +22,7 @@ const Testimonials = () => {
       <Slide {...properties}>
         <div className="each-slide">
           <div style={{'backgroundImage': `url(${slideImages[0]})`}}>
-            <span>Slide 1</span>
+            <span>Randy Phan I consider Jimmy as a friend and everytime we partner up on a team project, he is always prepare to get an idea ready. Jimmy would always discuss with the team to see if this is feasible to do, considering the time that we were given each project, and this help our team work flow much easier! Jimmy is quick to grasp each project requirments and a team leader.</span>
           </div>
         </div>
         <div className="each-slide">
