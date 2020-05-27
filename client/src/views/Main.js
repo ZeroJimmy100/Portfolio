@@ -3,7 +3,8 @@ import React from 'react';
 // import NavBar from '../components/NavBar';
 import '../components/css/Index.css';
 import NavBar2 from '../components/NavBar2';
-
+import Loading from '../components/Loading';
+// import Loading from '../components/Loading';
 
 
 export default () => {
@@ -17,9 +18,15 @@ export default () => {
         
     }
 
+
+
     return(
         <div>
 
+            {/* <div className="loader">
+                <Loading/>
+            </div> */}
+            <div className="main">
             <div>
                 <NavBar2/>
             </div>
@@ -183,7 +190,7 @@ export default () => {
                                 </div>
                                 <div className="content">
                                     <div>
-                                        <h2>Corvid19/Coronavirus Survey</h2>
+                                        <h2>Covid-19 Survey</h2>
                                         <p>A website that enables people to participate a survey during a pandemic known as Corvid19/Coronavirus</p>
                                     </div>
                                 </div>
@@ -274,6 +281,8 @@ export default () => {
                     <h5>Design & Implemented by Jimmy Pham</h5>
                 </div>
 
+           
+            </div>
             {/* </div> */}
         </div>
     )
