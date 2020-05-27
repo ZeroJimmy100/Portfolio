@@ -4,6 +4,19 @@
     
 } */
 
+/* .main
+{
+
+    display: none;
+
+} */
+
+
+/* .loader
+{
+    transition: opacity 2s ease-out;
+} */
+
 html
 {
     scroll-behavior: smooth;
