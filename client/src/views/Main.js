@@ -84,7 +84,7 @@ export default () => {
                                 <div className="AboutContentBox">
                                     <div className="AboutContent">
                                         <h2 className="TextSum">My Summary:</h2>
-                                        <p className="paragraph">Hi, my name is Jimmy, I like building, designing and solving things, whether it's coding, rubix cube or an annoying riddle. After discovering my passion for programming, I continued my passions by taking courses in computer science in college. When I realized I wanted to pursue a career in software development I enrolled at "Coding Dojo."</p>
+                                        <p className="paragraph">Hi, my name is Jimmy, I like building, designing and solving things, whether it's coding, rubix cube or a riddle. After discovering my passion for programming, I continued my passions by taking courses in computer science in college. When I realized I wanted to pursue a career in software development I enrolled at "Coding Dojo."</p>
                                     </div>
                                 </div>
                             </div>
