@@ -276,7 +276,7 @@ export default () => {
                     </div>
 
                     <div className="ResumeBorder">
-                        <a href="https://drive.google.com/file/d/1uf_GEdfXLrhZ6jXmRfL_zt77mG7_Mkm7/view?usp=sharing" target="_blank" rel="noopener noreferrer"> <img className="Resume" src={ require("../components/css/resume.png")} alt=""/> </a>
+                        <a href="https://drive.google.com/file/d/1wqse8iFLxoRR7jxekQRO3K7tzCnZ0z5e/view?usp=sharing" target="_blank" rel="noopener noreferrer"> <img className="Resume" src={ require("../components/css/resume.png")} alt=""/> </a>
                     </div>
                     <h5>Design & Implemented by Jimmy Pham</h5>
                 </div>
