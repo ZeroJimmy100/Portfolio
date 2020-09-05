@@ -7,10 +7,10 @@ export default function Loading() {
             <div className="MyBox">
                 <div className="b b1"></div>
                 <div className="b b2"></div>
-                
                 <div className="b b3"></div>
-                <div className="b b4"></div>
-                
+                <div className="b b4">
+                    <h1>JP</h1>
+                </div>
             </div>
         </div>
     )
