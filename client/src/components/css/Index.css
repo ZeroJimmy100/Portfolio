@@ -489,7 +489,7 @@ html
 
 .html{
     animation: html 2s;
-    width: 80%;
+    width: 78%;
 }
 
 @keyframes html{
@@ -497,7 +497,7 @@ html
         width: 0%;
     }
     100%{
-        width: 80%;
+        width: 78%;
     }
 }
 
@@ -517,7 +517,7 @@ html
 
 .mongoDB{
     animation: html 2s;
-    width: 80%;
+    width: 78%;
 }
 
 @keyframes mongoDB{
@@ -525,13 +525,13 @@ html
         width: 0%;
     }
     100%{
-        width: 80%;
+        width: 78%;
     }
 }
 
 .mysql{
     animation: html 2s;
-    width: 80%;
+    width: 78%;
 }
 
 @keyframes mysql{
@@ -539,13 +539,13 @@ html
         width: 0%;
     }
     100%{
-        width: 80%;
+        width: 78%;
     }
 }
 
 .react{
     animation: html 2s;
-    width: 78%;
+    width: 80%;
 }
 
 @keyframes react{
@@ -553,7 +553,7 @@ html
         width: 0%;
     }
     100%{
-        width: 78%;
+        width: 80%;
     }
 }
 
@@ -587,7 +587,7 @@ html
 
 .js{
     animation: html 2s;
-    width: 78%;
+    width: 90%;
 }
 
 @keyframes js{
@@ -595,7 +595,7 @@ html
         width: 0%;
     }
     100%{
-        width: 78%;
+        width: 90%;
     }
 }
 
