@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 // import NavBar from '../components/NavBar';
 import '../components/css/Index.css';
@@ -6,10 +6,25 @@ import NavBar2 from '../components/NavBar2';
 import Loading from '../components/Loading';
 // import Loading from '../components/Loading';
 
+class Main extends Component {
 
-export default () => {
+    state = {
+        loading: false
+    };
 
+    // setTimeout(() => {
+    //     state.loading = true;
+    //     console.log(state.loading);
+    // }, 3000)
 
+    componentDidMount()
+    {
+        setTimeout(() => {
+            this.setState({ loading: true });
+        }, 3000);
+    }
+
+    render(){
 
     const Results = e => {
         e.preventDefault();
@@ -23,9 +38,7 @@ export default () => {
     return(
         <div>
 
-            {/* <div className="loader">
-                <Loading/>
-            </div> */}
+        { this.state.loading ? (
             <div className="main">
             <div>
                 <NavBar2/>
@@ -51,7 +64,7 @@ export default () => {
 
                         <div className="WelcomeBox">
                                 <h4 className="WelcomeText">P o r t f o l i o</h4>
-                                <h4 className="TextsTech"> React | Python | C# | Django | ASP.NET | Swift | Java | Unity | JavaScript | MySQL | Node | Express | MongoDB | AWS</h4>
+                                <h4 className="TextsTech"> React | Python | C# | Django | ASP.NET | Swift | Java | Unity | JavaScript | MySQL | Node | Express | MongoDB | AWS | Ruby On Rails | Tensorflow | Pandas | JQuery</h4>
                                 <div>
                                     <h4 className="line">* * * * * * * * * </h4>
                                     <h5 className="Texts">Contact Me:</h5>
@@ -96,14 +109,9 @@ export default () => {
                             <div className="skillBox">
                                 <div className="skill">
 
-                                    <h1>MongoDB 80%</h1>
+                                    <h1>JavaScript 90%</h1>
                                     <div className="container1">
-                                        <div className="mongoDB bar"></div>
-                                    </div>
-
-                                    <h1>MySQL 80%</h1>
-                                    <div className="container1">
-                                        <div className="mysql bar"></div>
+                                        <div className="js bar"></div>
                                     </div>
 
                                     <h1>Python 80%</h1>
@@ -111,9 +119,9 @@ export default () => {
                                         <div className="python bar"></div>
                                     </div>
 
-                                    <h1>JavaScript 78%</h1>
+                                    <h1>React 80%</h1>
                                     <div className="container1">
-                                        <div className="js bar"></div>
+                                        <div className="react bar"></div>
                                     </div>
 
                                     <h1>HTML/CSS 78%</h1>
@@ -121,9 +129,14 @@ export default () => {
                                         <div className="html bar"></div>
                                     </div>
 
-                                    <h1>React 78%</h1>
+                                    <h1>MySQL 78%</h1>
                                     <div className="container1">
-                                        <div className="react bar"></div>
+                                        <div className="mysql bar"></div>
+                                    </div>
+
+                                    <h1>MongoDB 78%</h1>
+                                    <div className="container1">
+                                        <div className="mongoDB bar"></div>
                                     </div>
 
                                     <h1>C# 70%</h1>
@@ -282,8 +295,12 @@ export default () => {
                 </div>
 
            
-            </div>
+            </div>) : <Loading/>
+        }
             {/* </div> */}
         </div>
     )
 }
+}
+
+export default Main;
