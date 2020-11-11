@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 import '../components/css/Index.css';
 import NavBar2 from '../components/NavBar2';
 import Loading from '../components/Loading';
+import EmailForm from '../components/EmailForm';
 // import Loading from '../components/Loading';
 
 class Main extends Component {
@@ -76,7 +77,7 @@ class Main extends Component {
                                     <h4 id="add"> jimmyp.dev3@gmail.com</h4>
                                     
                                 </div>
-                        </div>
+                         </div>
 
                         
                     </div>
@@ -297,7 +298,6 @@ class Main extends Component {
            
             </div>) : <Loading/>
         }
-            {/* </div> */}
         </div>
     )
 }
